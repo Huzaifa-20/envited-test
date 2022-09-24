@@ -1,0 +1,50 @@
+.create-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0;
+}
+
+.create-form__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+  color: '#240d57';
+}
+
+.create-form__input {
+  width: 10rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+  font-size: 0.8rem;
+  border: none;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .create-form__label {
+    font-size: 1rem;
+  }
+
+  .create-form__input {
+    width: 15rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .create-form__label {
+    font-size: 1rem;
+  }
+
+  .create-form__input {
+    width: 15rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
+}
