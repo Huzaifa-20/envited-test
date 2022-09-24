@@ -1,0 +1,102 @@
+.page-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-left: 1.68rem;
+  padding-right: 1.68rem;
+  background-color: #f6f2ff;
+}
+
+.heading-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.landing-heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  color: #240d57;
+  text-align: center;
+}
+
+.platform-name {
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-text {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.15rem;
+  color: #4f4f4f;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.card-image {
+  height: 50%;
+  width: auto;
+  margin-top: 5%;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .landing-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .platform-name {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .landing-text {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .page-container {
+    flex-direction: row-reverse;
+  }
+
+  .heading-container {
+    width: fit-content;
+    align-items: flex-end;
+  }
+
+  .landing-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: end;
+  }
+
+  .platform-name {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .landing-text {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: end;
+    padding-left: 5rem;
+  }
+
+  .card-image {
+    height: 75%;
+  }
+}
