@@ -1,0 +1,28 @@
+.landing-button {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 1.3rem;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .landing-button {
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .landing-button {
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin-top: 8%;
+  }
+}
