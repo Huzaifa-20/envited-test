@@ -1,0 +1,55 @@
+.card-image {
+  height: 50%;
+  width: auto;
+  margin-top: 5%;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .landing-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .platform-name {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .landing-text {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .page-container {
+    flex-direction: row-reverse;
+  }
+
+  .heading-container {
+    width: fit-content;
+    align-items: flex-end;
+  }
+
+  .landing-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: end;
+  }
+
+  .platform-name {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .landing-text {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: end;
+    padding-left: 5rem;
+  }
+
+  .card-image {
+    height: 75%;
+  }
+}
