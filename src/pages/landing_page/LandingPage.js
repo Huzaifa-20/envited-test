@@ -27,14 +27,14 @@ const LandingPage = () => {
   return (
     <div className="page-container">
       <div className="heading-container">
-        <h1 className="landing-heading">
+        <h1 className="page-heading">
           Imagine if
           <br />
-          <span className="platform-name"> Snapchat </span>
+          <span className="page-span"> Snapchat </span>
           <br />
           had events.
         </h1>
-        <p className="landing-text">
+        <p className="page-text">
           Easily host and share events with your friends across any social
           media.
         </p>

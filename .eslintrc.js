@@ -17,6 +17,8 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-closing-bracket-location': 'off',
     'react/prop-types': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
+    'operator-linebreak': 'off',
     // You can override any rules you want
   },
 };
